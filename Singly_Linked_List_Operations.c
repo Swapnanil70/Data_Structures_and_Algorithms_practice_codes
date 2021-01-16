@@ -174,11 +174,11 @@ int main()
     sixth->data = 100;
     sixth->next = NULL;
 
-    //head = insertAtFirst(head, 90);
+    head = insertAtFirst(head, 90);
 
     //head = insertInBetween(head, 3, 50);
 
-    //head = insertAtEnd(head, 69);
+    head = insertAtEnd(head, 69);
 
     //head = deleteAtFirst(head);
 
@@ -186,7 +186,7 @@ int main()
 
     //head = deleteAtEnd(head);
 
-    head = deleteWithValue(head, 100); 
+    //head = deleteWithValue(head, 100); 
 
     Traversal(head);
   
